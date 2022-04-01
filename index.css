@@ -1,3 +1,76 @@
 body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     font-family: roboto;
+    align-items: center;
+}
+
+.hero, .header, .footer {
+    background-color: #1f2937;
+    display:flex;
+}
+
+.hero, .header, .footer, .random, .quote-section, .call-to-action {
+    padding: 10px 100px;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    color: #e5e7eb;
+    font-size: 18px;
+    align-items: center;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image {
+    display: flex;
+    margin: 25px;
+    padding: 10px 100px;
+    align-items: center;
+    background-color: grey;
+    color: #e5e7eb;
+}
+
+button, .call-to-action {
+    background-color: #3882f6;
+    margin: 0 100px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #e5e7eb;
+}
+
+.call-sign-up {
+    border: white 1px solid;
+}
+
+.footer {
+
 }
